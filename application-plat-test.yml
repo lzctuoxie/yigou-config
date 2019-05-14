@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: YIGOU-PLAT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///yigou-plat?useSSL=false
+    username: root
+    password: root
